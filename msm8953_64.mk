@@ -417,7 +417,6 @@ else
     DEVICE_MANIFEST_FILE += device/qcom/msm8953_64/keymaster_ota.xml
 endif
 
-PRODUCT_PROPERTY_OVERRIDES += rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 PRODUCT_PROPERTY_OVERRIDES += vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # privapp-permissions whitelisting
