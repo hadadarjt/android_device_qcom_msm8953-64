@@ -18,6 +18,9 @@ else
   SHIPPING_API_LEVEL := 29
 endif
 
+TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_SUFFIX := _64
+
 #### Turning BOARD_DYNAMIC_PARTITION_ENABLE flag to TRUE will enable dynamic partition/super image creation.
 # Enable Dynamic partitions only for Q new launch devices and beyond.
 ifeq (true,$(call math_gt_or_eq,$(SHIPPING_API_LEVEL),29))
